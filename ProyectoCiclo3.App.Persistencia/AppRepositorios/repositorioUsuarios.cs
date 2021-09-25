@@ -13,9 +13,9 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         {
             Usuario= new List<Usuario>()
             {
-                new Usuario{id=1,nombre="Sebastian",apellido= "Burbano",dirreccion= "Carrera 27",telefono= "12345679875"},
-                new Usuario{id=2,nombre="Camila",apellido= "Perez",dirreccion= "Calle 96",telefono= "12345678953"},
-                new Usuario{id=3,nombre="Maria",apellido= "Goemz",dirreccion= "Avenida sur -14",telefono= "4567258745"}
+                new Usuario{id=1,nombre="Sebastian",apellidos= "Burbano",direccion= "Carrera 27",telefono= "12345679875"},
+                new Usuario{id=2,nombre="Camila",apellidos= "Perez",direccion= "Calle 96",telefono= "12345678953"},
+                new Usuario{id=3,nombre="Maria",apellidos= "Goemz",direccion= "Avenida sur -14",telefono= "4567258745"}
  
             };
         }
@@ -25,7 +25,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return Usuario;
         }
  
-        public Usuario GetBusWithId(int id){
+        public Usuario GetUsuarioWithId(int id){
             return Usuario.SingleOrDefault(b => b.id == id);
         }
     }

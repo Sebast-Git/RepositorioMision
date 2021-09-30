@@ -5,13 +5,19 @@
 }
  
 <div class="text-center">
-<form action="">
-  <label for="nombre" class="form-label">Nombre:</label>
-  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" asp-for="@Usuario.nombre">
+<form method="post">
+    <label for="id" class="form-label">Id:</label>
+      <input type="number" class="form-control" id="id" name="id" placeholder="Id" asp-for="@Usuario.id">
+
+
+  <label for="nombre" class="form-label">nombre:</label>
+  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre" asp-for="@Usuario.nombre">
   <label for="apellidos" class="form-label">apellidos:</label>
   <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="apellidos" asp-for="@Usuario.apellidos">
   <label for="direccion" class="form-label">direccion:</label>
   <input type="text" class="form-control" id="direccion" name="direccion" placeholder="direccion" asp-for="@Usuario.direccion">
+    <label for="direccion" class="form-label">ciudad:</label>
+  <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="ciudad" asp-for="@Usuario.ciudad">
   <hr>
   <button type="submit" class="btn btn-success">Enviar</button>
 </form>

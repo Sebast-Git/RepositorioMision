@@ -13,9 +13,9 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         {
             Usuario= new List<Usuario>()
             {
-                new Usuario{id=1,nombre="Sebastian",apellidos= "Burbano",direccion= "Carrera 27",telefono= "12345679875"},
-                new Usuario{id=2,nombre="Camila",apellidos= "Perez",direccion= "Calle 96",telefono= "12345678953"},
-                new Usuario{id=3,nombre="Maria",apellidos= "Goemz",direccion= "Avenida sur -14",telefono= "4567258745"}
+                new Usuario{id=1,nombre="Sebastian",apellidos= "Burbano",direccion= "Carrera 27",telefono= "12345679875",ciudad= "Cali"},
+                new Usuario{id=2,nombre="Camila",apellidos= "Perez",direccion= "Calle 96",telefono= "12345678953",ciudad= "Bogota"},
+                new Usuario{id=3,nombre="Maria",apellidos= "Goemz",direccion= "Avenida sur -14",telefono= "4567258745",ciudad= "Manizales"}
  
             };
         }
@@ -28,5 +28,20 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         public Usuario GetUsuarioWithId(int id){
             return Usuario.SingleOrDefault(b => b.id == id);
         }
+
+        public Usuario Update(Usuario newUsuario){
+
+            var user= Usuario.SingleOrDefault(b => b.id == newUsuario.id);
+
+            if(user != null){
+                user.nombre = newUsuario.nombre;
+                user.apellidos = newUsuario.apellidos;
+                user.direccion = newUsuario.direccion;
+                user.telefono = newUsuario.telefono;
+                user.ciudad = newUsuario.ciudad;
+            }
+        return user;
+        }
     }
+
 }

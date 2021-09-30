@@ -13,6 +13,7 @@
       <th scope="col">Apellidos</th>
       <th scope="col">Direccion</th>
       <th scope="col">Telefono</th>
+      <th scope="col">Ciudad</th>
     </tr>
   </thead>
 
@@ -24,9 +25,10 @@
             <td>@Usuario.apellidos</td>
             <td>@Usuario.direccion</td>
             <td>@Usuario.telefono</td>
+            <td>@Usuario.ciudad</td>
             <td>
               <a class="btn btn-info" asp-page="./Details" asp-route-UsuarioId="@Usuario.id"><i class="fas fa-adjust"></i>Ver</a>
-              <a class="btn btn-info" asp-page="./Edit" asp-route-busId="@Usuario.id">Editar</a>
+              <a class="btn btn-info" asp-page="./Edit" asp-route-UsuarioId="@Usuario.id">Editar</a>
               <a class="btn btn-danger" href="">Eliminar</a>
               </td>
         </tr>

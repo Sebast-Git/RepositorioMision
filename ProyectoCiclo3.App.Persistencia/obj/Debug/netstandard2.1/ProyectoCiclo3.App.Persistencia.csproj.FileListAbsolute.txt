@@ -10,3 +10,15 @@ C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Pe
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.deps.json
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.dll
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\bin\Debug\netstandard2.1\ProyectoCiclo3.App.Dominio.pdb
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.AssemblyInfo.cs
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.csproj.CopyComplete
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.dll
+C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Persistencia\obj\Debug\netstandard2.1\ProyectoCiclo3.App.Persistencia.pdb

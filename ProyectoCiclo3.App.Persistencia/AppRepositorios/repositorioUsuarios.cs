@@ -29,6 +29,17 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             return Usuario.SingleOrDefault(b => b.id == id);
         }
 
+        public Usuario Create(Usuario newUsuario)
+        {
+           if(Usuario.Count > 0){
+           newUsuario.id=Usuario.Max(r => r.id) +1; 
+            }else{
+               newUsuario.id = 1; 
+            }
+           Usuario.Add(newUsuario);
+           return newUsuario;
+        }
+
         public Usuario Update(Usuario newUsuario){
 
             var user= Usuario.SingleOrDefault(b => b.id == newUsuario.id);
@@ -42,6 +53,14 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
             }
         return user;
         }
+
+        public void Delete(int id)
+        {
+        var user= Usuario.SingleOrDefault(b => b.id == id);
+        Usuario.Remove(user);
+        return;
+        }
+
     }
 
 }

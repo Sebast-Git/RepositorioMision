@@ -5737,19 +5737,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FAMILIA\\.nuget\\packages\\": {}
+    "C:\\Users\\Sebastian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian\\Documents\\ProyectoC3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
       "projectName": "ProyectoCiclo3.App.Frontend",
-      "projectPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\Sebastian\\Documents\\ProyectoC3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sebastian\\Documents\\ProyectoC3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5760,8 +5760,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
+            "C:\\Users\\Sebastian\\Documents\\ProyectoC3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Sebastian\\Documents\\ProyectoC3\\ProyectoCiclo3.App\\ProyectoCiclo3.App.Persistencia\\ProyectoCiclo3.App.Persistencia.csproj"
             }
           }
         }
@@ -5792,7 +5792,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }

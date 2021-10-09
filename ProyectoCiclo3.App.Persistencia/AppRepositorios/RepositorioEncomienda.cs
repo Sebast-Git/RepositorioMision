@@ -7,37 +7,52 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
 {
     public class RepositorioEncomienda
     {
-        List<Encomienda> encomienda;
+        List<Encomienda> Encomienda;
+
+        private readonly AppContext _appContext = new AppContext(); 
  
-    public RepositorioEncomienda()
-        {
-            encomienda= new List<Encomienda>()
-            {
-                new Encomienda{id=1,descripcion="Roku Express, Reproductor multimedia de transmisión HD",peso= "1.1 Oz",tipo= "Accesorios de TV",presentacion= "N/A"},
-                 
-            };
-        }
  
         public IEnumerable<Encomienda> GetAll()
         {
-            return encomienda;
+            return _appContext.Encomienda;
         }
  
         public Encomienda GetEncomiendaWithId(int id){
-            return encomienda.SingleOrDefault(b => b.id == id);
+            return _appContext.Encomienda.Find(id);
+        }
+
+        public Encomienda Create(Encomienda newEncomienda)
+        {
+            var addEncomienda = _appContext.Encomienda.Add(newEncomienda);
+            _appContext.SaveChanges();
+            return addEncomienda.Entity;
         }
 
         public Encomienda Update(Encomienda newEncomienda){
-
-            var encomiendas= encomienda.SingleOrDefault(b => b.id == newEncomienda.id);
-
-            if(encomienda != null){
-                encomiendas.descripcion = newEncomienda.descripcion;
-                encomiendas.peso = newEncomienda.peso;
-                encomiendas.tipo = newEncomienda.tipo;
-                encomiendas.presentacion = newEncomienda.presentacion;
+            var enco = _appContext.Encomienda.Find(newEncomienda.id);
+            if(enco != null){
+                enco.descripcion = newEncomienda.descripcion;
+                enco.peso = newEncomienda.peso;
+                enco.tipo = newEncomienda.tipo;
+                enco.presentacion = newEncomienda.presentacion;
+               
+                //Guardar en base de datos
+                 _appContext.SaveChanges();
             }
-        return encomiendas;
+        return enco;
         }
+
+
+        public void Delete(int id)
+        {
+        var enco = _appContext.Encomienda.Find(id);
+        if (enco == null)
+            return;
+        _appContext.Encomienda.Remove(enco);
+        _appContext.SaveChanges();
+        }
+
+
     }
+
 }

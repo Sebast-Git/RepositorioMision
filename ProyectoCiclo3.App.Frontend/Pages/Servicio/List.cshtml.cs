@@ -15,8 +15,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
         private readonly RepositorioServicio repositorioServicio;
         [BindProperty]
 
-        public Servicio Servicios {get;set;}
+        public Servicio service {get;set;}
         public IEnumerable<Servicio> Servicio {get;set;}
+        
  
     public ListServicioModel(RepositorioServicio repositorioServicio)
     {
@@ -29,9 +30,9 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     }
     public IActionResult OnPost()
     {
-        if(Servicios.id>0)
+        if(service.id>0)
         {
-        repositorioServicio.Delete(Servicios.id);
+        repositorioServicio.Delete(service.id);
         }
         return RedirectToPage("./List");
     }

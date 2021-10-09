@@ -12,48 +12,30 @@ namespace ProyectoCiclo3.App.Frontend.Pages
     public class EditServicioModel : PageModel
     {
        private readonly RepositorioServicio repositorioServicio;
-    //    private readonly RepositorioUsuario repositorioUsuario;
-    //    private readonly RepositorioEncomienda repositorioEncomienda;
-
-    //    public IEnumerable<Usuario> Usuario {get;set;}
-    //    public IEnumerable<Encomienda> Encomienda {get;set;}
-    //    public IEnumerable<Servicio> Servicio {get;set;}
+       private readonly RepositorioUsuario repositorioUsuario;
+       private readonly RepositorioEncomienda repositorioEncomienda;
 
 
        [BindProperty]
         
-              public Servicio Servicio {get;set;}
+        public Servicio Servicio {get;set;}
+        public IEnumerable<Usuario> Usuario {get;set;}
+        public IEnumerable<Encomienda> Encomienda {get;set;}
  
 
-       public EditServicioModel(RepositorioServicio repositorioServicio)
+       public EditServicioModel(RepositorioServicio repositorioServicio , RepositorioEncomienda repositorioEncomienda, RepositorioUsuario repositorioUsuario)
        {
             this.repositorioServicio=repositorioServicio;
-            // this.repositorioUsuario=repositorioUsuario;
-            // this.repositorioEncomienda=repositorioEncomienda;
+            this.repositorioUsuario=repositorioUsuario;
+            this.repositorioEncomienda=repositorioEncomienda;
        }
 
-    //    public void OnGet()
-    // {
-    //     Usuario=repositorioUsuario.GetAll();
-    //     Encomienda=repositorioEncomienda.GetAll();
-    //     Servicio=repositorioServicio.GetAll();
-    // }
 
-
-    //    public IActionResult OnPost()
-    //     {
-    //         if(!ModelState.IsValid)
-    //         {
-    //             return Page();
-    //         }
-    //         Servicio = repositorioServicio.Create(Servicio);
-            
-    //         return RedirectToPage("./List");
-    //     }
-
-        public IActionResult OnGet(int servicioId)
+        public IActionResult OnGet(int ServicioId)
         {
-            Servicio=repositorioServicio.GetServicioWithId(servicioId);
+            Servicio=repositorioServicio.GetServicioWithId(ServicioId);
+            Usuario=repositorioUsuario.GetAll();
+            Encomienda=repositorioEncomienda.GetAll();
             return Page();
         }
 
@@ -73,6 +55,5 @@ namespace ProyectoCiclo3.App.Frontend.Pages
 
         }
         
-
     }
 

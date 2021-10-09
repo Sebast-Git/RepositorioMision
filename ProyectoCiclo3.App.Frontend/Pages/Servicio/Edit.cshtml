@@ -1,11 +1,15 @@
 @page
-@model ProyectoCiclo3.App.Frontend.Pages.FormServicioModel
+@model ProyectoCiclo3.App.Frontend.Pages.EditServicioModel
 @{
     var Servicio = Model.Servicio;
 }
  
 <div class="text-center">
 <form method="post">
+    <label for="id" class="form-label">Id:</label>
+  <input type="number" class="form-control" id="id" placeholder="id" asp-for="@Servicio.id" required> 
+
+
 
     <label for="origen" class="form-label">Origen:</label>
     <select asp-for="@Servicio.origen" class="form-control">
@@ -26,7 +30,7 @@
     </select>
 
   <label for="fecha" class="form-label">Fecha:</label>
-  <input type="DateTime" class="form-control" id="fecha" placeholder="Fecha" asp-for="@Servicio.fecha" required> 
+  <input type="date" class="form-control" id="fecha" placeholder="Fecha" asp-for="@Servicio.fecha" required> 
 
     <label for="hora" class="form-label">Hora:</label>
   <input type="text" class="form-control" id="hora" placeholder="Hora" asp-for="@Servicio.hora" required>

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
+    "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {}
   },
   "projects": {
     "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Dominio\\ProyectoCiclo3.App.Dominio.csproj": {
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
+    "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
         "projectName": "ProyectoCiclo3.App.Frontend",
-        "projectPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\FAMILIA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FAMILIA\\AppData\\Roaming\\NuGet\\NuGet.Config"

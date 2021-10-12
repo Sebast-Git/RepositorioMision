@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8+ty/cRINUH3W0IEATnIA3RZs7jJdvA5oDrKRlH4c1wTnvt+TrVFCxgQ/LldSC0eKTEoiNswYujXif3sBfqYyA==",
+  "dgSpecHash": "p+ny4cvjaqTuJkZK0wV26WKXro1K28Sc2CryuqNu6LE9q4A2kT9/PtkEbj6d4MgP61znGvLotZZnaGXAYuDV5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\Proyectociclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\FAMILIA\\Desktop\\Mision TIC 2022\\Programacion\\Proyecto Ciclo 3\\RepositorioMision\\ProyectoCiclo3.App.Frontend\\ProyectoCiclo3.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FAMILIA\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\FAMILIA\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

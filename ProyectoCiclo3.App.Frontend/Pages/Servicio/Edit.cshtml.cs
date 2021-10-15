@@ -52,8 +52,21 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             return RedirectToPage("./List");
         }
 
+        public IActionResult OnPost(int origen,int destino,string fecha, string hora, int encomienda)
+        {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }else{            
+            repositorioServicio.Create(origen, destino, fecha, hora, encomienda);            
+            return RedirectToPage("./List");
+            }
+        
+
+
 
         }
         
     }
 
+}

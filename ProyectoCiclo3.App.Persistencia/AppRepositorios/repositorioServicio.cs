@@ -30,7 +30,7 @@ namespace ProyectoCiclo3.App.Persistencia.AppRepositorios
         //     return addServicio.Entity;
         // }
 
-        public Servicio Create(int origen, int destino, string fecha, string hora, int encomienda)
+        public Servicio Create(int origen, int destino, DateTime fecha, string hora, int encomienda)
         {
             var newServicio = new Servicio();
             newServicio.destino = _appContext.Usuario.Find(destino);

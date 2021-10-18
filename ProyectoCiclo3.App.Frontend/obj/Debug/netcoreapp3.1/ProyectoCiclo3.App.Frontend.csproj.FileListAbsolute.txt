@@ -377,8 +377,11 @@ C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\Repositor
 C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\appsettings.json
 C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\ProyectoCiclo3.App.Frontend.deps.json
 C:\Users\FAMILIA\Desktop\Mision TIC 2022\Programacion\Proyecto Ciclo 3\RepositorioMision\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\ProyectoCiclo3.App.Frontend.runtimeconfig.json
+<<<<<<< HEAD
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\web.config
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\appsettings.json
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\ProyectoCiclo3.App.Frontend.deps.json
 C:\Users\Sebastian\Documents\ProyectoC3\ProyectoCiclo3.App\ProyectoCiclo3.App.Frontend\bin\Debug\netcoreapp3.1\publish\ProyectoCiclo3.App.Frontend.runtimeconfig.json
+=======
+>>>>>>> 64a218d6ab62483e428d9df4e7d2874608599646

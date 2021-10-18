@@ -52,6 +52,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             return RedirectToPage("./List");
         }
 
+
         // public IActionResult OnPost(int origen,int destino,string fecha, string hora, int encomienda)
         // {
         //     if(!ModelState.IsValid)

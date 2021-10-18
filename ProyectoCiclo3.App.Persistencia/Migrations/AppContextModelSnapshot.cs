@@ -56,8 +56,8 @@ namespace ProyectoCiclo3.App.Persistencia.Migrations
                     b.Property<int?>("encomiendaid")
                         .HasColumnType("int");
 
-                    b.Property<string>("fecha")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("fecha")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("hora")
                         .HasColumnType("nvarchar(max)");

@@ -6,17 +6,20 @@
  
 <div class="text-center">
 <form method="post">
-    <label for="id" class="form-label">Id:</label>
-  <input type="number" class="form-control" id="id" placeholder="Id" name="@Servicio.id" required> 
-
-
+    @* <label for="id" class="form-label">Id:</label> *@
+  <input type="number" class="form-control d-none" id="id" placeholder="Id" name="id" value="@Servicio.id" required> 
 
     <label for="origen" class="form-label">Origen:</label>
     <select name="@Servicio.origen.nombre" class="form-control">
         <option value="">-</option>
         @foreach (var usuario in Model.Usuario)
     {
+      @if(Servicio.origen.id == @usuario.id){
+        <option value="@usuario.id" selected>@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        }
+        else{
         <option value="@usuario.id">@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        }
     }
     </select>
 
@@ -25,23 +28,35 @@
         <option value="">-</option>
         @foreach (var usuario in Model.Usuario)
     {
+      @if(Servicio.destino.id == @usuario.id){
+        <option value="@usuario.id" selected>@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        }
+        else{
         <option value="@usuario.id">@usuario.nombre @usuario.apellidos - @usuario.ciudad</option>
+        }
     }
     </select>
 
   <label for="fecha" class="form-label">Fecha:</label>
-  <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="@Servicio.fecha" required> 
+  <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" value="@Servicio.fecha" required> 
 
     <label for="hora" class="form-label">Hora:</label>
-  <input type="text" class="form-control" id="hora" placeholder="Hora" name="@Servicio.hora" required>
+  <input type="text" class="form-control" id="hora" placeholder="Hora" name="hora" value="@Servicio.hora" required>
 
       <label for="encomienda" class="form-label">Encomienda:</label>
     <select name="@Servicio.encomienda.descripcion" class="form-control">
         <option value="">-</option>
         @foreach (var encomienda in Model.Encomienda)
+
     {
+      @if(Servicio.encomienda.id == @encomienda.id){
+        <option value="@encomienda.id" selected>@encomienda.descripcion</option>
+        }
+        else{
         <option value="@encomienda.id">@encomienda.descripcion</option>
+        }
     }
+
     </select>
 
   <hr>

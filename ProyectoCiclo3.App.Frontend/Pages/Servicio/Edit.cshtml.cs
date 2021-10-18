@@ -39,7 +39,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             return Page();
         }
 
-        public IActionResult OnPost()
+        public IActionResult OnPost(int id, int origen,int destino,string fecha, string hora, int encomienda)
         {
             if(!ModelState.IsValid)
             {
@@ -47,7 +47,7 @@ namespace ProyectoCiclo3.App.Frontend.Pages
             }
             if(Servicio.id>0)
             {
-            Servicio = repositorioServicio.Update(Servicio);
+            Servicio = repositorioServicio.Update(id, origen, destino, fecha, hora, encomienda);
             }
             return RedirectToPage("./List");
         }

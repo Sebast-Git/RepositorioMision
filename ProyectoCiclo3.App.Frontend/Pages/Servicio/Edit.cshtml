@@ -7,10 +7,10 @@
 <div class="text-center">
 <form method="post">
     @* <label for="id" class="form-label">Id:</label> *@
-  <input type="number" class="form-control d-none" id="id" placeholder="Id" name="id" value="@Servicio.id" required> 
+  <input type="number" class="form-control d-none" id="id" placeholder="Id" name="id" value="@Servicio.id"> 
 
     <label for="origen" class="form-label">Origen:</label>
-    <select name="@Servicio.origen.nombre" class="form-control">
+    <select name="origen" class="form-control">
         <option value="">-</option>
         @foreach (var usuario in Model.Usuario)
     {
@@ -24,7 +24,7 @@
     </select>
 
   <label for="destino" class="form-label">Destino:</label>
-    <select name="@Servicio.destino.nombre" class="form-control">
+    <select name="destino" class="form-control">
         <option value="">-</option>
         @foreach (var usuario in Model.Usuario)
     {
@@ -38,13 +38,13 @@
     </select>
 
   <label for="fecha" class="form-label">Fecha:</label>
-  <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" value="@Servicio.fecha" required> 
+  <input type="date" class="form-control" id="fecha" placeholder="Fecha" name="fecha" value="@Servicio.fecha"> 
 
     <label for="hora" class="form-label">Hora:</label>
-  <input type="text" class="form-control" id="hora" placeholder="Hora" name="hora" value="@Servicio.hora" required>
+  <input type="time" class="form-control" id="hora" placeholder="Hora" name="hora" value="@Servicio.hora">
 
       <label for="encomienda" class="form-label">Encomienda:</label>
-    <select name="@Servicio.encomienda.descripcion" class="form-control">
+    <select name="encomienda" class="form-control">
         <option value="">-</option>
         @foreach (var encomienda in Model.Encomienda)
 
